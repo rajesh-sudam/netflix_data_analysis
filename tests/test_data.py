@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_csv("C:/Users/Rajesh.Sudam/Downloads/Netflix/data/netflix_titles.csv")
+df=pd.read_csv("data/netflix_titles.csv")
 
 def test_dataset_not_empty():
     assert len(df)>0
